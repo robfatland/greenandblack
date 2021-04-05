@@ -28,3 +28,5 @@ We are not done because by default color support is enabled. To see this type `l
 #    alias egrep='egrep --color=auto'
 #fi
 ```
+
+Then re-run it: `source ~/.bashrc`
