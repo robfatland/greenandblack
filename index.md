@@ -15,6 +15,7 @@ We are not done because by default color support is enabled. To see this type `l
 
 (2) Comment out these lines in `.bashrc`
 
+```
 # enable color support of ls and also add handy aliases
 #if [ -x /usr/bin/dircolors ]; then
 #    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -26,3 +27,4 @@ We are not done because by default color support is enabled. To see this type `l
 #    alias fgrep='fgrep --color=auto'
 #    alias egrep='egrep --color=auto'
 #fi
+```
