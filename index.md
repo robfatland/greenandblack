@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to Green and Black
 
-You can use the [editor on GitHub](https://github.com/robfatland/greenandblack/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This repository concerns (a) working on a PC (b) having an Ubuntu installation (c) getting really uncomfortable with the color-coded 
+text and (d) making it all green text on a black background: For both the bash terminal and the vim editor. This dates back to my
+personal bias accrued in the mid 1980s. You can find all of this material on StackOverflow etcetera; I just finally got fed up with
+having to re-look-it-up all the time; in part because I work with cloud VMs and IDEs where suddenly I find everything is color coded
+again. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### bash: 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+(1) In the top window bar right click, select Properties, and set Color to green on black, increase font size, etcetera
 
-```markdown
-Syntax highlighted code block
+We are not done because by default color support is enabled. To see this type `ls -al`.
 
-# Header 1
-## Header 2
-### Header 3
+(2) Comment out these lines in `.bashrc`
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/robfatland/greenandblack/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# enable color support of ls and also add handy aliases
+#if [ -x /usr/bin/dircolors ]; then
+#    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+#    alias ls='ls --color=auto'
+#    #alias dir='dir --color=auto'
+#    #alias vdir='vdir --color=auto'
+#
+#    alias grep='grep --color=auto'
+#    alias fgrep='fgrep --color=auto'
+#    alias egrep='egrep --color=auto'
+#fi
