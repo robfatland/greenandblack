@@ -1,10 +1,11 @@
 ## Welcome to Green and Black
 
-This repository concerns (a) working on a PC (b) having an Ubuntu installation (c) getting really uncomfortable with the color-coded 
-text and (d) making it all green text on a black background: For both the bash terminal and the vim editor. This dates back to my
-personal bias accrued in the mid 1980s. You can find all of this material on StackOverflow etcetera; I just finally got fed up with
-having to re-look-it-up all the time; in part because I work with cloud VMs and IDEs where suddenly I find everything is color coded
-again. 
+This repository concerns (a) working on a PC (b) with Ubuntu (Debian) Linux installed (c) feeling very unhappy with color-coded 
+text in bash and vi (vim) and (d) changing it to all be green text on a black background. This 
+personal bias was acquired in the mid 1980s.
+
+
+All of this material is available on StackOverflow etcetera; but I wearied of re-looking-it-up all the time.
 
 
 ### bash: 
@@ -30,3 +31,21 @@ We are not done because by default color support is enabled. To see this type `l
 ```
 
 Then re-run it: `source ~/.bashrc`
+
+
+### vim:
+
+`vi` and `vim` are the same thing: A text editor with arcane syntax inherited from an earlier editor called `ed`. 
+To disable a profusion of colorized text in the editor: In escape mode type `:syntax off`. 
+
+
+To disable a profusion of colorized text **permanently** create (or open the existing) file `~/.vimrc` and
+append the text line `syntax off`.
+
+
+### Which version of the operating system am I running? 
+
+`hostnamectl`
+
+
+
