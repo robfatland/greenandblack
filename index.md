@@ -1,11 +1,12 @@
-# Rob's please just make it green and black instructions
+# Just make it green and black
+
 
 This repository concerns (a) working on a PC (b) with Ubuntu (Debian) Linux installed (c) feeling very unhappy with color-coded 
 text in bash and vi (vim) and (d) changing it to all be green text on a black background. This 
 personal bias was acquired in the mid 1980s.
 
 
-All of this material is available on StackOverflow etcetera; but I wearied of re-looking-it-up all the time.
+Nothing tricky or hidden here; I just wearied of re-looking-it-up all the time.
 
 
 ## bash: 
@@ -31,6 +32,8 @@ We are not done because by default color support is enabled. To see this type `l
 ```
 
 Then re-run it: `source ~/.bashrc`
+
+Also one can put below all the other `$PS1` stuff a simple assignment to make the font simpler.
 
 
 ## vim:
