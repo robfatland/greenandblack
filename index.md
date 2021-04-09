@@ -1,4 +1,4 @@
-# Just make it green and black
+## Just make it green and black
 
 
 This repository concerns (a) working on a PC (b) with Ubuntu (Debian) Linux installed (c) feeling very unhappy with color-coded 
@@ -9,7 +9,7 @@ personal bias was acquired in the mid 1980s.
 Nothing tricky or hidden here; I just wearied of re-looking-it-up all the time.
 
 
-## bash: 
+### bash: 
 
 (1) In the top window bar right click, select Properties, and set Color to green on black, increase font size, etcetera
 
@@ -33,23 +33,28 @@ We are not done because by default color support is enabled. To see this type `l
 
 Then re-run it: `source ~/.bashrc`
 
+
 ### That stupid prompt
 
 
-As long as we are making non-recommended changes to **bashrc**: To change the stupid prompt again
+As long as we are making non-recommended changes to **bashrc**: To change that stupid 
+over-complicated bash prompt:  Once again
 open `~/.bashrc' in an editor, scroll down past all the `$PS1` stuff (this is a variable for the
 default bash prompt) and put in something like 
 
 ```
-PS1="my comp> "
+PS1="my computer> "
 ```
 
-and then save it and re-run **bashrc**. 
+and then save it and re-run **bashrc**. Now I know which bash shell is running on my local machine;
+and I will use a different prompt for a cloud VM and so on. The prompt's job is just to remind 
+me which computer it is running on. 
+
 
 Because I use Anaconda: The current environment name gets prepended to my bash prompt so 
-when I log in the prompt looks like `(base) my comp> `. This is ok by me because I switch
+when I log in the prompt looks like `(base) my computer> `. This is ok by me because I switch
 environments a lot. For example `conda activate fred_env` will change my prompt to 
-`(fred_env) my comp> ` which is helpful to see at a glance. 
+`(fred_env) my computer> ` which is helpful to see at a glance. 
 
 
 
