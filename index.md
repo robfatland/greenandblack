@@ -1,12 +1,21 @@
 ## Just make it green and black
 
 
-This repository concerns (a) working on a PC (b) with Ubuntu (Debian) Linux installed (c) feeling very unhappy with color-coded 
-text in bash and vi (vim) and (d) changing it to all be green text on a black background. This 
-personal bias was acquired in the mid 1980s.
+This repository concerns (please apply AND):
 
 
-Nothing tricky or hidden here; I just wearied of re-looking-it-up all the time.
+- working on a PC 
+- with an installed Ubuntu (Debian) Linux bash shell
+- unhappy with the color-coded text 
+- while using **bash** and **vi** (**vim**)
+- plus the prompt is "helpful" (stupid)
+- wondering how much effort it would be to go to green text on a black background
+
+
+This personal bias was acquired by the author in the mid 1980s.
+
+
+There is nothing tricky here; I just got tired of looking it up all the time.
 
 
 ### bash: 
@@ -34,7 +43,7 @@ We are not done because by default color support is enabled. To see this type `l
 Then re-run it: `source ~/.bashrc`
 
 
-### That stupid prompt
+### stupid prompt
 
 
 As long as we are making non-recommended changes to **bashrc**: To change that stupid 
