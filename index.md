@@ -33,7 +33,24 @@ We are not done because by default color support is enabled. To see this type `l
 
 Then re-run it: `source ~/.bashrc`
 
-Also one can put below all the other `$PS1` stuff a simple assignment to make the font simpler.
+### That stupid prompt
+
+
+As long as we are making non-recommended changes to **bashrc**: To change the stupid prompt again
+open `~/.bashrc' in an editor, scroll down past all the `$PS1` stuff (this is a variable for the
+default bash prompt) and put in something like 
+
+```
+PS1="my comp> "
+```
+
+and then save it and re-run **bashrc**. 
+
+Because I use Anaconda: The current environment name gets prepended to my bash prompt so 
+when I log in the prompt looks like `(base) my comp> `. This is ok by me because I switch
+environments a lot. For example `conda activate fred_env` will change my prompt to 
+`(fred_env) my comp> ` which is helpful to see at a glance. 
+
 
 
 ## vim:
