@@ -69,7 +69,8 @@ environments a lot. For example `conda activate fred_env` will change my prompt 
 
 ## vim:
 
-`vi` and `vim` are the same thing: A text editor with arcane syntax inherited from an earlier editor called `ed`. 
+`vi` and `vim` are the same editor, specificially an ancient text editor 
+with arcane syntax inherited from an even older editor called `ed`. 
 To disable a profusion of colorized text in the editor: In escape mode type `:syntax off`. 
 
 
