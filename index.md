@@ -87,6 +87,22 @@ when I log in the prompt looks like `(base) my computer> `. This is ok by me bec
 environments a lot. For example `conda activate fred_env` will change my prompt to 
 `(fred_env) my computer> ` which is helpful to see at a glance. 
 
+## ls:
+
+To change the colors of the text produced by `ls` you can read an online resource like [**this one**](https://linuxhint.com/ls_colors_bash/).
+I will give the bare-bones here, changing directory names to plain (not bold) green. 
+
+
+* Append the current **ls** color scheme to the `.bashrc` file using `dircolors -b >> .bashrc`.
+* Edit `.bashrc` and go to the end of the file where the output has created a big block of text:
+
+```
+LS_COLORS=`rs=0:di=01....etcetera etcetera etceters....;export LS_COLORS`
+```
+
+* These are key-value pairs. 
+* The color green is '32' so find the entry for `di` (directory) and set it to `di=01;32`. 
+* Save and execute `.bashrc`
 
 
 ## vim:
