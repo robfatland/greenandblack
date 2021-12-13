@@ -90,19 +90,19 @@ environments a lot. For example `conda activate fred_env` will change my prompt 
 ## ls:
 
 To change the colors of the text produced by `ls` you can read an online resource like [**this one**](https://linuxhint.com/ls_colors_bash/).
-I will give the bare-bones here, changing directory names to plain (not bold) green. 
+I give the bare-bones here for making directory names green. 
 
 
 * Append the current **ls** color scheme to the `.bashrc` file using `dircolors -b >> .bashrc`.
-* Edit `.bashrc` and go to the end of the file where the output has created a big block of text:
+* Edit `.bashrc` and go to the end of the file where the output has created a several lines of dense text:
 
 ```
-LS_COLORS=`rs=0:di=01....etcetera etcetera etceters....;export LS_COLORS`
+LS_COLORS=`rs=0:di=01;34....etcetera etcetera etceters....;export LS_COLORS`
 ```
 
 * These are key-value pairs. 
 * The color green is '32' so find the entry for `di` (directory) and set it to `di=01;32`. 
-* Save and execute `.bashrc`
+* Save and run the file `.bashrc`
 
 
 ## vim:
