@@ -14,24 +14,24 @@ The nice view is [here](https://robfatland.github.io/greenandblack/). But how???
 Uh oh... months have gone by... 'How did I set this up? How do I change it?' 
 
 - Find the branch chooser and switch to gh-pages
-    - Voila the `index.md` file appears... 
+- Voila the `index.md` file appears 
 - Edit! Commit! 
-    - The compilation task can require a few minutes to complete.
+- The new version may be slow to appear... refresh!
 
 
 
 ## Just make it green and black
 
 
-This repository concerns (please apply AND):
+This repository concerns:
 
 
-- working on a PC 
-- with an installed Ubuntu (Debian) Linux bash shell
-- unhappy with the color-coded text 
-- while using **bash** and **vi** (**vim**)
-- plus the prompt is "helpful" (stupid)
-- wondering how much effort it would be to go to green text on a black background
+- working on a PC peering into another machine via an...
+- ...installed Ubuntu (Debian) Linux bash shell
+- ...where I am very unhappy with nauseating color-coded text 
+- ...that assert whilst I am using both **bash** and **vi**
+- ...with the addition of an "helpful" (stupid) prompt
+- ...I wonder how much effort to get simple green on black
 
 
 This personal bias was acquired by the author in the mid 1980s.
