@@ -1,3 +1,16 @@
+## Wait: What? How is this nice format built? 
+
+I used a separate branch called gh-pages. This uses a jekyll template to create nicer looking documentation.
+
+
+Within github I go to Settings and follow the trail to github pages.
+
+
+Also within github I change the branch to github pages, causing this `index.md` file to appear. And that is what 
+I edit.
+
+
+
 ## Just make it green and black
 
 
