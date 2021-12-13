@@ -1,15 +1,16 @@
 ## Wait: What? How is this nice format built? 
 
 I used a separate branch called gh-pages. This uses a jekyll template to create nicer looking documentation.
+This seems to reside at `https://robfatland.github.io/greenandblack/`. Ok how did I get here???
 
 
-Within github I go to Settings and find the pages tab on the left. Then I choose a theme.
-
-
-Within the same repo on github: After months have gone by and I'm wondering 'How did I do this???' I notice there is a 
-branch chooser in the upper left part of the main view screen. 
-I change the branch to `github pages`, causing this `index.md` file to appear. And that is what 
-I edit.
+- To start I create some sort of repository. This one is called ***greenandblack***.
+- Within github I go to Settings and find the pages tab on the left. I choose a theme.
+- I switch to the `gh-pages` branch (chooser at upper left) and edit `index.md`.
+- Months have gone by and I'm wondering 'How did I originally do this???' 
+    - Wait! There is that branch chooser in the upper left part of the main view screen. 
+    - I change the branch to `github pages`; and voila this `index.md` file appears... 
+    - So I edit and commit and so on. Sometimes it takes a few minutes for changes to register.
 
 
 
