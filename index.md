@@ -1,16 +1,22 @@
-## Wait: What? How is this nice format built? 
+## Wait: How is this nice format built? 
 
-I used a separate branch called gh-pages. This uses a jekyll template to create nicer looking documentation.
-This seems to reside at `https://robfatland.github.io/greenandblack/`. Ok how did I get here???
+I used a **gh-pages** as a separate branch from **main**. A jekyll template gives us nicer documentation.
+The nice view is [here](https://robfatland.github.io/greenandblack/). But how???
 
 
-- To start I create some sort of repository. This one is called ***greenandblack***.
-- Within github I go to Settings and find the pages tab on the left. I choose a theme.
-- I switch to the `gh-pages` branch (chooser at upper left) and edit `index.md`.
-- Months have gone by and I'm wondering 'How did I originally do this???' 
-    - Wait! There is that branch chooser in the upper left part of the main view screen. 
-    - I change the branch to `github pages`; and voila this `index.md` file appears... 
-    - So I edit and commit and so on. Sometimes it takes a few minutes for changes to register.
+- To start: Create some repository. This one is **greenandblack**
+- Github --> repo --> Settings --> **pages** tab on the left. Choose a theme
+- Switch to the `gh-pages` branch (from `main`: use the chooser
+- Edit file `index.md`
+
+
+
+Uh oh... months have gone by... 'How did I set this up? How do I change it?' 
+
+- Find the branch chooser and switch to gh-pages
+    - Voila the `index.md` file appears... 
+- Edit! Commit! 
+    - The compilation task can require a few minutes to complete.
 
 
 
