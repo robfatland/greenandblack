@@ -3,10 +3,12 @@
 I used a separate branch called gh-pages. This uses a jekyll template to create nicer looking documentation.
 
 
-Within github I go to Settings and follow the trail to github pages.
+Within github I go to Settings and find the pages tab on the left. Then I choose a theme.
 
 
-Also within github I change the branch to github pages, causing this `index.md` file to appear. And that is what 
+Within the same repo on github: After months have gone by and I'm wondering 'How did I do this???' I notice there is a 
+branch chooser in the upper left part of the main view screen. 
+I change the branch to `github pages`, causing this `index.md` file to appear. And that is what 
 I edit.
 
 
