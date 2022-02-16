@@ -1,52 +1,65 @@
-## Wait: How is this nice format built? 
-
-I used a **gh-pages** as a separate branch from **main**. A jekyll template gives us nicer documentation.
-The nice view is [here](https://robfatland.github.io/greenandblack/). But how???
+## Nice format! What's your secret? 
 
 
-- To start: Create some repository. This one is **greenandblack**
-- Github --> repo --> Settings --> **pages** tab on the left. Choose a theme
-- Switch to the `gh-pages` branch (from `main`: use the chooser
-- Edit file `index.md`
+First: This is about retro-customizing your UNIX working environment, not 'nice formatting'... but ok:
 
 
+I used the **gh-pages** service; which involves using a separate branch from the default **main**. 
+**gh-pages** uses a jekyll template for nicer-looking documentation.
+This is published [here](https://robfatland.github.io/greenandblack/) and here are the steps:
 
-Uh oh... months have gone by... 'How did I set this up? How do I change it?' 
 
-- Find the branch chooser and switch to gh-pages
-- Voila the `index.md` file appears 
-- Edit! Commit! 
-- The new version may be slow to appear... refresh!
+- Create some repository, like this **greenandblack** one, on GitHub
+- Menus: Github --> repo --> Settings --> **pages** tab on the left, then choose a *theme*
+- Switch to the `gh-pages` branch (from `main`: use the chooser)
+- Edit the file `index.md`. That becomes what you see... like these words
+
+
+Uh oh... several months have gone by... I forgot everything! How did I set this up? More important, how do I edit it?
+
+
+- Find the branch chooser for the repo and use it to switch to the gh-pages branch
+- There is the `index.md` file: Edit it! Commit! Go check the website: https://**organization**.github.io/**repo**
+- In this case that is https://robfatland.github.org/greenandblack
+    - An edited version may be slow to appear... refresh!
 
 
 
 ## Just make it green and black
 
 
-This repository concerns:
+Ok back to the purpose here. This repository concerns:
 
 
 - working on a PC peering into another machine via an...
 - ...installed Ubuntu (Debian) Linux bash shell
-- ...where I am very unhappy with nauseating color-coded text 
-- ...that assert whilst I am using both **bash** and **vi**
-- ...with the addition of an "helpful" (stupid) prompt
-- ...I wonder how much effort to get simple green on black
+- ...where the author is very unhappy about nauseating colorized text 
+- ...that appears both in the **bash** shell and the **vi** editor
+- ...including a "helpful" (stupid) prompt
+- ...and all I want is simple green on black
 
 
-This personal bias was acquired by the author in the mid 1980s.
+This personal bias was acquired by the author in the mid 1980s. Because Curtis Ling is cool, even if he is late for rehearsal.
 
 
-There is nothing tricky here; I just got tired of looking it up all the time.
+There is nothing tricky here; I just got tired of looking this up all the time.
 
 
-### bash: 
+### fixing **bash** 
 
-(1) In the top window bar right click, select Properties, and set Color to green on black, increase font size, etcetera
 
-We are not done because by default color support is enabled. To see this type `ls -al`.
+Again this is an Ubuntu bash shell installed on a Windows PC. Ubuntu is Linux, and that means UNIX. 
+
+
+(1) Run the Ubuntu bash shell and from the top window bar: Right click, select Properties, and set Color to green on black
+(2) Increase font size and adjust whatever else you like
+
+
+We are not done: Color support is still enabled. For example, type `ls -al`.
+
 
 (2) Comment out these lines in `.bashrc`
+
 
 ```
 # enable color support of ls and also add handy aliases
