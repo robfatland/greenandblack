@@ -232,3 +232,9 @@ to pay for a higher sampling rate in the console...' (but why?)
 
 
 ## How do I keep my VM patched up to date?
+
+
+## Where can I look for an instructive IOT project, say on AWS?
+
+
+[Try this](https://github.com/aws-samples/aws-iot-workshop)
