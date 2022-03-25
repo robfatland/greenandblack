@@ -1,4 +1,4 @@
-# [Here is the pretty version of greenandblack!](https://robfatland.github.io/greenandblack/)...
+# [Pretty version of greenandblack](https://robfatland.github.io/greenandblack/)
 
 This repository is a big "Note To Self" on fundamentals of operating in the *Bourne again shell* (**`bash`**). 
 It started out as "How to get rid of the colorized text: Just make everything green text on a black background please!"
