@@ -1,6 +1,6 @@
 # greenandblack
 
-- Format: This repo uses GitHub **pages**. This README is within the **`gh-pages`** branch.
+- Format: This repo uses GitHub **pages**. This README is within the [**`gh-pages`** branch](https://github.com/robfatland/greenandblack/tree/gh-pages).
 - Retro-customize `bash` and `vi`: Just green on black and a simple prompt
 - **`ssh`** tunnels from one machine to another
 - When to use **`miniconda`** instead of **`anaconda`**
