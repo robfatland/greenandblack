@@ -3,7 +3,14 @@
 
 ## TOC
 
-...would go here...
+* [gh-pages format](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#nice-format-whats-your-secret)
+* [green and black](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#just-make-it-green-and-black)
+* [conda package manager](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#conda-package-manager)
+* [ssh tunnel](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#ssh-tunnel)
+* [bash operational notes](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#bash-operational-notes)
+* [miscellaneous](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#miscellaneous)
+* sub-folders
+    * [VSCode](https://github.com/robfatland/greenandblack/blob/gh-pages/vscode)
 
 
 ## Nice format! What's your secret? 
@@ -188,7 +195,7 @@ conda activate lectroid
 (jupyter notebook --no-browser --port=8889) &
 ```
 
-## What is the point of conda environments? 
+### What is the point of conda environments? 
 
 
 `conda create/activate` commands engage Python environments as customized versions of 
