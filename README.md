@@ -4,6 +4,7 @@ This repo uses GitHub **pages**. This README is within the
 [**`gh-pages`** branch](https://github.com/robfatland/greenandblack/tree/gh-pages).
 There is also a [main branch](https://github.com/robfatland/greenandblack/tree/main).
 The actual documentation is [here](https://robfatland.github.io/greenandblack/).
+An example sub-folder **`vscode`** is at [this link](https://robfatland.github.io/greenandblack/vscode).
 A table of linky-contents follows but is likely wildly inaccurate.
 
 
