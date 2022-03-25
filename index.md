@@ -270,8 +270,11 @@ A localized spike in CPU use will take some time to display in the console. It i
 to pay for a higher sampling rate in the console... but why?"
 
 
-### Keep a VM patched and up to date
+### Keep a VM patched
 
+```
+sudo apt-get update -y && sudo apt-get upgrade -y
+```
 
 ## Miscellaneous 
 
