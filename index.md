@@ -1,11 +1,13 @@
-# greenandblack
-
 <img src="assets/img/greenandblack.png"
      alt="green and black icon"
      height="100"
      width="300"
      style="float: left; margin-right: 10px;" />
-     
+
+
+# greenandblack
+
+
 ## Contents
 
 * [gh-pages format](https://robfatland.github.io/greenandblack#nice-format-whats-your-secret)
