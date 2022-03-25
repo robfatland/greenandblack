@@ -1,6 +1,9 @@
 # greenandblack
 
 
+![green and black](https://robfatland.github.io/greenandblack/assets/img/greenandblack.png)
+
+
 ## Contents
 
 * [gh-pages format](https://robfatland.github.io/greenandblack#nice-format-whats-your-secret)
