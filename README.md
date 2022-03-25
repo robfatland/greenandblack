@@ -1,6 +1,6 @@
 # [Pretty version of greenandblack](https://robfatland.github.io/greenandblack/)
 
-This repository is a big "Note To Self" on fundamentals of operating in the *Bourne again shell* (**`bash`**). 
+This repository is a big "Note To Self" on fundamentals of operating in the *Bourne again shell*, **`bash`**. 
 It started out as "How to get rid of the colorized text: Just make everything green text on a black background please!"
 Insofar as this concerns meta- or environmental configuration, it has expanded into a collection of **basic information**.
 Use/believe what you find here at your own peril.
@@ -14,7 +14,3 @@ Use/believe what you find here at your own peril.
     - ...and how does this in turn relate to **`VSCode`**?
     - ...and to containers?
     - ...and to conda environments?
-
-
-
-Bash is the ‘Bourne-Again SHell’ (cf Stephen Bourne), a command interpreter for UNIX.
