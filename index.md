@@ -3,14 +3,14 @@
 
 ## Contents
 
-* [gh-pages format](https://robfatland.github.io/greenandblack/index.md#nice-format-whats-your-secret)
-* [green and black](https://robfatland.github.io/greenandblack/index.md#just-make-it-green-and-black)
-* [conda package manager](https://robfatland.github.io/greenandblack/index.md#conda-package-manager)
-* [ssh tunnel](https://robfatland.github.io/greenandblack/index.md#ssh-tunnel)
-* [bash operational notes](https://robfatland.github.io/greenandblack/index.md#bash-operational-notes)
-* [miscellaneous](https://robfatland.github.io/greenandblack/index.md#miscellaneous)
+* [gh-pages format](https://robfatland.github.io/greenandblack#nice-format-whats-your-secret)
+* [green and black](https://robfatland.github.io/greenandblack#just-make-it-green-and-black)
+* [conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
+* [ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
+* [bash operational notes](https://robfatland.github.io/greenandblack#bash-operational-notes)
+* [miscellaneous](https://robfatland.github.io/greenandblack#miscellaneous)
 * sub-folders
-    * [VSCode](https://robfatland.github.io/greenandblack/vscode/index.md)
+    * [VSCode](https://robfatland.github.io/greenandblack/vscode)
 
 
 ## Nice format! What's your secret? 
