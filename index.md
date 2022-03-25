@@ -1,5 +1,11 @@
 # greenandblack
 
+
+## TOC
+
+...would go here...
+
+
 ## Nice format! What's your secret? 
 
 This repo uses GitHub's **gh-pages** service: Built as a distinct `gh-pages` branch off the default **Main**.
@@ -19,23 +25,24 @@ Here is how to get one of these https://**organization**.github.io/**repo** webs
 - Switch to the `gh-pages` branch: From the `Main` branch, use the chooser
 - At the documentation site it will be `index.md` that renders (not a README)
     - Edits can be a little slow to propagate; refresh!
-- ------------What's missing here is how to set up and link to other pages beyond index.md------------
-
+- The root directory `index.md` renders as default content
+    - Add other folders and markdown; but cross reference using documentation website URLs, not GitHub URLs
+        - Example: **`https://organization.github.io/repo-name/subfolder`** renders the **`index.md`** therein
 
 
 ## Just make it green and black
 
-### Premise
+### Intro
 
 The scenario:
 
 
 - I am working on a PC running some (say Ubuntu) `bash` shell
 - ...and I am peering into another machine, often a Virtual Machine...
-- ...where unhappily it is all about nauseating colorized text...
-- ...in that VM **`bash`** shell and its **`vi`** editor...
-- ...including some byzantine prompt...
-- ...and I want green on black and a simple prompt...
+- ...where unhappily it's nauseating colorized text...
+- ...in both the **`bash`** shell and the **`vi`** editor...
+- ...and it builds some byzantine prompt...
+- ...but all I want is green on black with a simple prompt...
 
 
 This bias was inspired by Curtis Ling, who is cool never mind he is also late to rehearsal.
