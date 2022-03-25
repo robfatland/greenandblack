@@ -3,7 +3,14 @@
 
 ![green and black](https://robfatland.github.io/greenandblack/assets/img/greenandblack.png)
 
+...or...
 
+<img src="assets/img/greenandblack.png"
+     alt="green and black icon"
+     height="200"
+     width="300"
+     style="float: left; margin-right: 10px;" />
+     
 ## Contents
 
 * [gh-pages format](https://robfatland.github.io/greenandblack#nice-format-whats-your-secret)
