@@ -1,7 +1,11 @@
+[home](https://robfatland.github.io/greenandblack)
+
+
 # vscode
 
+
 [Visual Studio Code (vscode)](https://code.visualstudio.com/) 
-is an editor that -- while being less fun that `vi` -- arguably has better features.
+is an editor that, while less ***fun*** than `vi`, arguably has better features.
 
 The goals of this page:
 
