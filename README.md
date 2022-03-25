@@ -10,7 +10,7 @@ A table of linkontents follows but is likely wildly inaccurate.
 - **`ssh`** tunnels from one machine to another
 - On a Windows PC: How are **`Ubuntu bash`** and **`Windows Subsystem for Linux (WSL)`** related?
     - ...and how does this in turn relate to 
-[**`VSCode`**](https://github.com/robfatland/greenandblack/tree/gh-pages/vscode)?
+[**`VSCode`**](https://github.com/robfatland/greenandblack/tree/gh-pages/vscode/index.md)?
     - ...and to containers?
     - ...and to conda environments?
 - When to use **`miniconda`** instead of **`anaconda`**
