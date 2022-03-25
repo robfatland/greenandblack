@@ -3,7 +3,8 @@
 This repo uses GitHub **pages**. This README is within the 
 [**`gh-pages`** branch](https://github.com/robfatland/greenandblack/tree/gh-pages).
 There is also a [main branch](https://github.com/robfatland/greenandblack/tree/main).
-A table of linkontents follows but is likely wildly inaccurate.
+The actual documentation is [here](https://robfatland.github.io/greenandblack/).
+A table of linky-contents follows but is likely wildly inaccurate.
 
 
 - Retro-customize `bash` and `vi`: Just green on black and a simple prompt
