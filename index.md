@@ -8,6 +8,7 @@ This repo uses GitHub's **gh-pages** service: Built as a distinct `gh-pages` bra
 - [The main branch of the github repo](https://github.com/robfatland/greenandblack/tree/main)
 - [The gh-pages branch of the github repo](https://github.com/robfatland/greenandblack/tree/gh-pages)
 - [The pretty documentation website](https://robfatland.github.io/greenandblack/)
+    - [A sub-folder example](https://robfatland.github.io/greenandblack/vscode)
 
 
 Here is how to get one of these https://**organization**.github.io/**repo** websites started:
