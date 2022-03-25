@@ -5,7 +5,7 @@
 This repo uses GitHub's **gh-pages** service: Built as a distinct `gh-pages` branch off the default **Main**.
 **gh-pages** uses a jekyll template, whatever that is. There are, as a result, three places to be: 
 
-- [The main branch of the github repo]
+- [The main branch of the github repo](https://github.com/robfatland/greenandblack/tree/main)
 - [The gh-pages branch of the github repo](https://github.com/robfatland/greenandblack/tree/gh-pages)
 - [The pretty documentation website](https://robfatland.github.io/greenandblack/)
 
