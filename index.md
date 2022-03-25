@@ -1,64 +1,57 @@
+# greenandblack
+
 ## Nice format! What's your secret? 
 
+This repo uses GitHub's **gh-pages** service: Built as a distinct `gh-pages` branch off the default **Main**.
+**gh-pages** uses a jekyll template, whatever that is. There are, as a result, three places to be: 
 
-First: This is about retro-customizing your UNIX working environment, not 'nice formatting'... but ok:
-
-
-I used the **gh-pages** service; which involves using a separate branch from the default **main**. 
-**gh-pages** uses a jekyll template for nicer-looking documentation.
-This is published [here](https://robfatland.github.io/greenandblack/) and here are the steps:
-
-
-- Create some repository, like this **greenandblack** one, on GitHub
-- Menus: Github --> repo --> Settings --> **pages** tab on the left, then choose a *theme*
-- Switch to the `gh-pages` branch (from `main`: use the chooser)
-- Edit the file `index.md`. That becomes what you see... like these words
+- [The main branch of the github repo]
+- [The gh-pages branch of the github repo]
+- [The pretty documentation website](https://robfatland.github.io/greenandblack/)
 
 
-Uh oh... several months have gone by... I forgot everything! How did I set this up? More important, how do I edit it?
+Here is how to get one of these https://**organization**.github.io/**repo** websites started:
 
 
-- Find the branch chooser for the repo and use it to switch to the gh-pages branch
-- There is the `index.md` file: Edit it! Commit! Go check the website: https://**organization**.github.io/**repo**
-- In this case that is https://robfatland.github.org/greenandblack
-    - An edited version may be slow to appear... refresh!
+- Create some repository on GitHub
+- Menus: Github --> repo --> Settings --> **pages** tab on the left; choose a *theme*
+- Switch to the `gh-pages` branch: From the `Main` branch, use the chooser
+- At the documentation site it will be `index.md` that renders (not a README)
+    - Edits can be a little slow to propagate; refresh!
+- ------------What's missing here is how to set up and link to other pages beyond index.md------------
 
 
 
 ## Just make it green and black
 
+### Premise
 
-Ok back to the purpose here. This repository concerns:
-
-
-- working on a PC peering into another machine via an...
-- ...installed Ubuntu (Debian) Linux bash shell
-- ...where the author is very unhappy about nauseating colorized text 
-- ...that appears both in the **bash** shell and the **vi** editor
-- ...including a "helpful" (stupid) prompt
-- ...and all I want is simple green on black
+The scenario:
 
 
-This personal bias was acquired by the author in the mid 1980s. Because Curtis Ling is cool, even if he is late for rehearsal.
+- I am working on a PC running some (say Ubuntu) `bash` shell
+- ...and I am peering into another machine, often a Virtual Machine...
+- ...where unhappily it is all about nauseating colorized text...
+- ...in that VM **`bash`** shell and its **`vi`** editor...
+- ...including some byzantine prompt...
+- ...and I want green on black and a simple prompt...
 
 
-There is nothing tricky here; I just got tired of looking this up all the time.
+This bias was inspired by Curtis Ling, who is cool never mind he is also late to rehearsal.
 
 
-### fixing **bash** 
+### **`bash`** fix 
 
 
-Again this is an Ubuntu bash shell installed on a Windows PC. Ubuntu is Linux, and that means UNIX. 
+Let's begin on the Ubuntu bash shell running on a Windows PC. This can be customized; 
+independent of customizing a VM bash.
 
 
-(1) Run the Ubuntu bash shell and from the top window bar: Right click, select Properties, and set Color to green on black
-(2) Increase font size and adjust whatever else you like
-
-
-We are not done: Color support is still enabled. For example, type `ls -al`.
-
-
-(2) Comment out these lines in `.bashrc`
+- Run the Ubuntu bash shell
+- From the top window bar: Right click, select Properties, and set Color to green on black
+- Increase font size, adjust whatever else you like
+- Type `ls -al` to observe that *color support* is still enabled. Yeccch.
+- Comment out these lines in `.bashrc`
 
 
 ```
@@ -75,80 +68,99 @@ We are not done: Color support is still enabled. For example, type `ls -al`.
 #fi
 ```
 
-Then re-run it: `source ~/.bashrc`
+- Command line: `source ~/.bashrc`
+- Check with `ls -al` again
 
 
-### stupid prompt
+### prompt fix
 
 
-As long as we are making non-recommended changes to **bashrc**: To change that stupid 
-over-complicated bash prompt:  Once again
-open `~/.bashrc' in an editor, scroll down past all the `$PS1` stuff (this is a variable for the
-default bash prompt) and put in something like 
+The prompt's job is to tell me which computer I am entering commands on (and possibly whether
+I am working inside a conda environment).
+
+
+- Edit `~/.bashrc' in `vi`, scroll past the `$PS1` stuff
+    - `$PS1` is a variable for the default bash prompt 
+- Add this line:
+
 
 ```
 PS1="my computer> "
 ```
 
-and then save it and re-run **bashrc**. Now I know which bash shell is running on my local machine;
-and I will use a different prompt for a cloud VM and so on. The prompt's job is just to remind 
-me which computer it is running on. 
+- Command line: `source ~/.bashrc`
+
+Now the prompt tells me when I am working on my local machine.
+For VMs: Use simple but instructive prompts in like fashion. 
+
+A conda environment name will be prepended to this bash prompt. By default this
+prompt will be `(base) my computer> `. This is ok by me: When I switch
+environments by means of `conda activate some-environment` the prompt will 
+automatically change the prompt to `(some-environment) my computer>`. 
 
 
-Because I use Anaconda: The current environment name gets prepended to my bash prompt so 
-when I log in the prompt looks like `(base) my computer> `. This is ok by me because I switch
-environments a lot. For example `conda activate fred_env` will change my prompt to 
-`(fred_env) my computer> ` which is helpful to see at a glance. 
+### ls fix
 
-## ls:
-
-To change the colors of the text produced by `ls` you can read an online resource like [**this one**](https://linuxhint.com/ls_colors_bash/).
-I give the bare-bones here for making directory names green. 
+To change the colors of the text produced by `ls` check an online resource like [**this**](https://linuxhint.com/ls_colors_bash/).
+The bare-bones to make directory names green is like so: 
 
 
-* Append the current **ls** color scheme to the `.bashrc` file using `dircolors -b >> .bashrc`.
-* Edit `.bashrc` and go to the end of the file where the output has created a several lines of dense text:
+- `dircolors -b >> .bashrc` appends the current **ls** color scheme to `.bashrc`
+- edit `.bashrc` and go to the end of the file 
+- Observe the dense text we just added:
 
 ```
 LS_COLORS=`rs=0:di=01;34....etcetera etcetera etceters....;export LS_COLORS`
 ```
 
-* These are key-value pairs. 
-* The color green is '32' so find the entry for `di` (directory) and set it to `di=01;32`. 
-* Save and run the file `.bashrc`
+- These are key-value pairs. 
+- The color green is '32' so find the entry for `di` (directory) and set it to `di=01;32`. 
+- `source ~/.bashrc`
+- `ls -al`
 
 
-## vim:
+### **`vi`** fix
 
 `vi` and `vim` are the same editor, specificially an ancient text editor 
-with arcane syntax inherited from an even older editor called `ed`. 
-To disable a profusion of colorized text in the editor: In escape mode type `:syntax off`. 
+with arcane syntax inherited from an even older editor called `ed`. `vim` 
+is the modern version of `vi`. 
 
 
-To disable a profusion of colorized text **permanently** create (or open the existing) file `~/.vimrc` and
-append the text line `syntax off`.
+To disable a profusion of colorized text in `vi`: In escape mode type `:syntax off`. 
 
 
-## Which version of the operating system am I running? 
+To disable a profusion of colorized text **permanently**:
+
+
+```
+vi ~/.vimrc
+
+<escape>
+G
+o
+syntax off
+<escape>
+:wq
+```
+
+- Re-run `vi` to verify this worked
+
+
+## conda package manager
+
+
+### Which version of the operating system am I running? 
+
 
 `cat /etc/os-release` or `lsb_release -a`
 
 
-# The Rest Of This Doc...
+### miniconda
 
 
-...concerns some common (cloud-related) tasks. I needed a place to keep these notes so I'm parking them 
-here in a repository that I'm sure will stay around for some time. So DON'T DO THIS STUFF HERE unless
-you are sure it is the right thing to do. 
-
-
-## How do I get miniconda going? 
-
-
-You know how there is that science fiction trope where yourself from the future
-shows up to give you a warning before you do something stupid? Well this is me from the 
-future. Again: Don't follow these instructions: I have not checked them recently. Unless you are sure 
-you want to. 
+Caveat emptor: Make sure this is what you want to do. miniconda is a minimal conda installation
+so when you want common libraries in the future (unlike with Anaconda) you will be installing them.
+For more detail: [read this](https://www.educative.io/edpresso/anaconda-vs-miniconda).
 
 
 ```
@@ -156,7 +168,7 @@ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-As this runs: Respond to the prompts with care; and continue with:
+- Respond to prompts with care; then...
 
 ```
 rm Miniconda3-latest-Linux-x86_64.sh
@@ -171,70 +183,100 @@ conda activate lectroid
 ## What is the point of conda environments? 
 
 
-The `create/activate` commands get us in the habit of treating a Python environment as a sub-framework of 
-the generic general environment. Need: steps to ensure this environment appears in
-the notebook server interface. 
+`conda create/activate` commands engage Python environments as customized versions of 
+our base environment. 
 
 
-## How to Tunnel
-
-I want to run jupyter on a secure VM inside the AWS cloud on a private subnet. Let's call it **worker**.
-I have an intermediary bastion server called **bastion**. I'm going to connect from my local machine to
-**bastion** to **worker** so that in my browser I see my working Jupyter notebook server environment
-on **worker**. 
+- Needed: How does the current environment appear in the Jupyter notebook server interface? 
 
 
-First: **bastion** has a moving target public ip address. Each time I stop and re-start it the address 
-changes. So I assign it a fixed (AWS: 'elastic ip') ip address.
+## ssh tunnel
+
+### Outline
 
 
-Now to tunnel.
+I want to run Jupyter on a secure VM inside the AWS cloud on a private subnet. Let's call this VM **`worker`**.
+I have an intermediary bastion server called **`bastion`**. I'm going to connect from my local machine to
+**bastion** to **worker** so that in my browser I see a Jupyter notebook server that is in fact running on **worker**. 
+That means a two-hop ssh tunnel.
+
+
+### Procedure
+
+
+If **`bastion`** has a moving target public ip address: Assign it a fixed ip address. For example on AWS
+this is called an *elastic ip*. Now that ip address can be baked into a connect alias.
+
+
+- From **`local`** `bash`:
 
 ```
  $ ssh -i bastion.pem ubuntu@12.23.34.45
- ```
- 
- Move `worker.pem` to bastion.
+```
+
+- Customize the environment... I hear green and black is nice
+- From **`local`**: Move the `worker.pem` file to **`bastion`**
  
 ```
 $ sftp -i bastion.pem ubuntu@12.23.34.45
 sftp> put worker.pem
 ```
 
-* Confirm can **`ssh`** to worker from laptop
-* From laptop: `ssh ubuntu@12.23.34.45 -i bastion.pem`
-* From bastion:
-    * `ssh -i worker.pem ubuntu@10.0.1.234` (note use of private subnet ip address for worker)
-    * On worker: `(jupyter notebook --no-browser --port=8889) &`
-        * copy long token that looks like **`4109891ab3e0ec38c2aec9c427c8be11eda975ab2882a52a`**
-    * Exit to bastion
-    * `ssh -N -f -i worker.pem -L localhost:7005:localhost:8889 ubuntu@10.0.1.234`
-        * This is the second part of the tunnel from bastion to worker
-    * `exit` now back in bash on laptop
-    * `ssh -N -f -i bastion.pem -L localhost:7004:localhost:7005 ubuntu@12.23.34.45`
-    * laptop browser address bar enter `localhost:7004` and paste in token string
+- **`ssh`** from **`local`** to **`bastion`** to **`worker`**
+    - `ssh ubuntu@12.23.34.45 -i bastion.pem`
+    - `ssh -i worker.pem ubuntu@10.0.1.234`
+        - This uses the VPC private subnet ip address for **`worker`**
+
+- On worker start a headless Jupyter notebook server
+    - `(jupyter notebook --no-browser --port=8889) &`
+        - The choice of port is fairly arbitrary; but we do not want it to collide with a port that is in use
+        - This command produces a lot of output
+        - Towards the end: copy the long token string
+            - It looks like **`4109891ab3e0ec38c2aec9c427c8be11eda975ab2882a52a`**
+    - `exit`
+    - First time doing this: Log back in to **`worker`** and verify the server is still running 
+        - `ps -ef | grep jupyter`
+        - `exit`
+    - On **`bastion`** create an ssh tunnel
+        - `ssh -N -f -i worker.pem -L localhost:7005:localhost:8889 ubuntu@10.0.1.234`
+            - Same as above remark: On port choice 7005
+            - This command associates inbound **`bastion`** traffic on port 7005 to outbound > **`worker`** port 8889
+        - `exit`
+    - On **`local`** create the second part of the tunnel to **`bastion`**
+        - `ssh -N -f -i bastion.pem -L localhost:7004:localhost:7005 ubuntu@12.23.34.45`
+    - **`local`** browser address bar
+        - `localhost:7004`
+        - If promnpted: paste in token string copied above
   
-## Why use miniconda instead of anaconda?
+  
+## bash operational notes
+
+Common tasks
+
+### List volumes for only top-level directories
+
+```
+du -h -d1
+```
+
+### CPU monitoring (many-core machine)
 
 
-[Read this.](https://www.educative.io/edpresso/anaconda-vs-miniconda)
+Wes says: "Use **`top`** from the bash command line."
 
 
-## How do I monitor my CPU usage to make sure I'm firing on all cylinders?
-
-
-Wes (an expert in cloud VM performance) says "Use **`top`** from your VM bash command line."
-
-
-He continues: "Cloud watch metrics (AWS EC2 console GUI) are delayed, updated once every 5 minutes.
+Wes says: "CloudWatch metrics (AWS EC2 console GUI) are delayed, updated once every 5 minutes.
 A localized spike in CPU use will take some time to display in the console. It is possible 
-to pay for a higher sampling rate in the console...' (but why?)
+to pay for a higher sampling rate in the console... but why?"
 
 
-## How do I keep my VM patched up to date?
+### Keep a VM patched and up to date
 
 
-## Where can I look for an instructive IOT project, say on AWS?
+## Miscellaneous 
+
+
+### Where can I look for an instructive IOT project, say on AWS?
 
 
 [Try this](https://github.com/aws-samples/aws-iot-workshop)
