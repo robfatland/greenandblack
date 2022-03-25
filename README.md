@@ -9,7 +9,8 @@ A table of linkontents follows but is likely wildly inaccurate.
 - Retro-customize `bash` and `vi`: Just green on black and a simple prompt
 - **`ssh`** tunnels from one machine to another
 - On a Windows PC: How are **`Ubuntu bash`** and **`Windows Subsystem for Linux (WSL)`** related?
-    - ...and how does this in turn relate to [**`VSCode`**]?
+    - ...and how does this in turn relate to 
+[**`VSCode`**](https://github.com/robfatland/greenandblack/tree/gh-pages/vscode)?
     - ...and to containers?
     - ...and to conda environments?
 - When to use **`miniconda`** instead of **`anaconda`**
