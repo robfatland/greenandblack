@@ -1,16 +1,16 @@
 # greenandblack
 
 
-## TOC
+## Contents
 
-* [gh-pages format](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#nice-format-whats-your-secret)
-* [green and black](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#just-make-it-green-and-black)
-* [conda package manager](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#conda-package-manager)
-* [ssh tunnel](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#ssh-tunnel)
-* [bash operational notes](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#bash-operational-notes)
-* [miscellaneous](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md#miscellaneous)
+* [gh-pages format](https://robfatland.github.io/greenandblack/index.md#nice-format-whats-your-secret)
+* [green and black](https://robfatland.github.io/greenandblack/index.md#just-make-it-green-and-black)
+* [conda package manager](https://robfatland.github.io/greenandblack/index.md#conda-package-manager)
+* [ssh tunnel](https://robfatland.github.io/greenandblack/index.md#ssh-tunnel)
+* [bash operational notes](https://robfatland.github.io/greenandblack/index.md#bash-operational-notes)
+* [miscellaneous](https://robfatland.github.io/greenandblack/index.md#miscellaneous)
 * sub-folders
-    * [VSCode](https://github.com/robfatland/greenandblack/blob/gh-pages/vscode)
+    * [VSCode](https://robfatland.github.io/greenandblack/vscode/index.md)
 
 
 ## Nice format! What's your secret? 
