@@ -1,9 +1,10 @@
 # [Pretty version of greenandblack](https://robfatland.github.io/greenandblack/)
 
-This repository is a big "Note To Self" on fundamentals of operating in the *Bourne again shell*, **`bash`**. 
-It started out as "How to get rid of the colorized text: Just make everything green text on a black background please!"
-Insofar as this concerns meta- or environmental configuration, it has expanded into a collection of **basic information**.
-Use/believe what you find here at your own peril.
+This repo is a Note To Self on operating in the *Bourne again shell* **`bash`**. 
+It began as "How to get rid of annoying colorized text: Just green text on a black background please."
+This bias was inspired by Curtis Ling in 1985.
+The meta-environmental spirit of the repo has now expanded: **basic information** on containers, bash-in-Windows and so on.
+Use and or believe what you find at your own peril.
 
 
 - Cool-format note: This repo uses GitHub **pages** so switch to the **`gh-pages`** branch to edit content
