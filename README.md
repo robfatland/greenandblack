@@ -20,10 +20,10 @@ Use and or believe what you find at your own peril.
 
 ## Elsewhere but not far
 
-- [Quantum Computing](https://github.com/robfatland/quantum)
-- [Fast API-building](https://github.com/robfatland/zero2api)
-- [Building a server using Flask](https://github.com/robfatland/mocean)
-- [Secure cloud](https://github.com/robfatland/cloudsecurity)
+- [quantum computing](https://github.com/robfatland/quantum)
+- [fast API-building](https://github.com/robfatland/zero2api)
+- [building a server using Flask](https://github.com/robfatland/mocean)
+- [secure cloud](https://github.com/robfatland/cloudsecurity)
 - [natural language processing](https://github.com/robfatland/nlp)
 - [cloud command line interfaces](https://github.com/robfatland/cli)
 - [cloud spend notification](https://github.com/robfatland/costnotify)
