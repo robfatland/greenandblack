@@ -3,7 +3,8 @@
 [This repo](https://github.com/robfatland/greenandblack/tree/main)
 is a Note To Self on operating in the *Bourne again shell* **`bash`**. 
 It began as "How to get rid of annoying colorized text: Just green text on a black background please."
-This bias was inspired by Curtis Ling in 1985.
+This bias was inspired by Curtis Ling in 1985. The documentation branch (gh-pages) is [here](https://github.com/robfatland/greenandblack/tree/gh-pages).
+The documentation itself is [here](https://robfatland.github.io/greenandblack).
 The meta-environmental spirit of the repo has now expanded: **basic information** on containers, bash-in-Windows and so on.
 Use and or believe what you find at your own peril.
 
