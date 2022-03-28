@@ -16,3 +16,18 @@ Use and or believe what you find at your own peril.
     - ...and how does this in turn relate to **`VSCode`**?
     - ...and to containers?
     - ...and to conda environments?
+
+
+## Elsewhere but not far
+
+- [Quantum Computing](https://github.com/robfatland/quantum)
+- [Fast API-building](https://github.com/robfatland/zero2api)
+- [Building a server using Flask](https://github.com/robfatland/mocean)
+- [Secure cloud](https://github.com/robfatland/cloudsecurity)
+- [natural language processing](https://github.com/robfatland/nlp)
+- [cloud command line interfaces](https://github.com/robfatland/cli)
+- [cloud spend notification](https://github.com/robfatland/costnotify)
+- [ocean data science](https://github.com/robfatland/cloudsecurity)
+- [classroom environments](https://github.com/robfatland/curriculum)
+- [non-curriculum math](https://github.com/robfatland/othermathclub)
+- [Python projects](https://github.com/robfatland/pythonbytes)
