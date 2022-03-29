@@ -47,6 +47,22 @@ Here is how to get one of these https://**organization**.github.io/**repo** webs
     - Add other folders and markdown; but cross reference using documentation website URLs, not GitHub URLs
         - Example: **`https://organization.github.io/repo-name/subfolder`** renders the **`index.md`** therein
 
+## Is there a motivational rant please?
+
+
+I have a strong interest in understanding my Linux bash installation on my Windows laptop. My current
+understanding is cursory at best. Some debugging skills would be nice. My former standard practice was
+to open an Ubuntu bash shell... which I had magically installed *somehow*... and work on some notebooks
+in repositories below my home directory. And when I needed to grab stuff I had sorted out the Windows
+Downloads folder as **`/mnt/c/Users/myusername/Downloads`** so no worries. Then one day recently I went
+to do this and ***Ubuntu bash would not start!!!*** So I forced it to run by selecting the app... and 
+it *did* start but all my files were gone. 
+
+
+
+WSL and Ubuntu bash are a bit mysterious and may even be mutually redundant; and I ran into a "where did my file system go?" issue; and I've never really understood conda environments; and how does this relate to building and using containers? So it is all stuff that I know about in fragments which is very unsatisfactory. 
+
+I can "install" something called WSL... or maybe it is combined with "turning on Linux" inside Windows. But I can also install Ubuntu bash. Which opens a bash terminal in my home directory... where miniconda is not installed. So I install miniconda and now I can create and activate environments. And I can start a Jupyter notebook server. But the other day my Ubuntu <start> icon stopped working. So I forced Ubuntu to start using the Windows start utility. So it started. So I said "ls" and everything was gone. So all my hard work evaporated (except that it was mostly synched with GitHub so Hah Hah Hah on the gods of data loss). So 
 
 ## Just make it green and black
 
