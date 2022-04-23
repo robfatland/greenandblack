@@ -76,11 +76,12 @@ system.
 
 So let's say the host system is Windows and the compatibility layer is Windows Subsystem for Linux, 
 abbreviated WSL. And now version 2 is out; so technically WSL-2. WSL is built into the Windows operating
-system on a PC; so it may need to be enabled in order to run Linux on that PC. 
+system on a PC; so it may need to be enabled in order to run Linux on that PC. That's the point. 
+The foreign system binary is Linux. We enable WSL so we can run Linux on Windows.
 
 Running a Windows Command Prompt as Administrator one can install `wsl` if needed via `wsl --install`. 
 And re-start the PC of course. After that is done one can issue a `wsl` command that starts a bash shell
-in the Command window. This sequence indicates 'going there and coming back again'.
+in the Command window. This command sequence indicates 'going there and coming back again'.
 
 ```
 C:\Windows\system32> wsl
