@@ -19,9 +19,8 @@ Green and black...
 
 * [from the top](https://robfatland.github.io/greenandblack)
 * [green and black](https://robfatland.github.io/greenandblack#just-make-it-green-and-black)
-* [conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
 * [ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
-* [bash](https://robfatland.github.io/greenandblack#bash-operational-notes)
+* [bash](https://robfatland.github.io/greenandblack#bash)
 
 
 ## Nice format! What's your secret? 
