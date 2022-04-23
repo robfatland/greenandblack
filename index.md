@@ -42,20 +42,72 @@ Here is how to get one of these https://**organization**.github.io/**repo** webs
         - Example: **`https://organization.github.io/repo-name/subfolder`** renders the **`index.md`** therein
 
 
-## Is there a motivational rant please?
+## motivating rant please?
 
 
-I have a strong interest in understanding my Linux bash installation on my Windows laptop. My current
-understanding is cursory at best. Some debugging skills would be nice. My former standard practice was
-to open an Ubuntu bash shell... which I had magically installed *somehow*... and work on some notebooks
-in repositories below my home directory. And when I needed to grab stuff I had sorted out the Windows
-Downloads folder as **`/mnt/c/Users/myusername/Downloads`** so no worries. Then one day recently I went
-to do this and ***Ubuntu bash would not start!!!*** So I forced it to run by selecting the app... and 
-it *did* start but all my files were gone. 
+I want to understand my Linux bash installation on my Windows laptop. 
+Debugging skills would be nice, particularly. 
+Early attempts were haphazard: 'It seems to work... hope it doesn't break!'
+Also I connected with the Windows Downloads folder via a torturous path: 
+**`/mnt/c/Users/myusername/Downloads`** which seemed absurd. 
+Then one day ***it broke***: My Linux environment had vanished.
+I got them back... but now let's try again from scratch and do better with the big picture.
 
 
+## Weasel??? Anaconda???  What, are we in some sorta zoo????
 
-WSL and Ubuntu bash are a bit mysterious and may even be mutually redundant; and I ran into a "where did my file system go?" issue; and I've never really understood conda environments; and how does this relate to building and using containers? So it is all stuff that I know about in fragments which is very unsatisfactory. 
+At this point I'm going to unapologetically start defining the lexicon as an infinite sequence of paragraphs. 
+At some point these would migrate to a separate page but for the moment: Womp there it is.
+
+
+### What is Anaconda?
+
+
+Ok Anaconda is a Python distribution that features a metric ton of pre-installed data science libraries. 
+Therefore we can say Anaconda is a data science platform that happens to use Python. 
+But when Anaconda installs in a Linux operating system it also installs this special command `conda`.
+The `conda` command is a package manager; so if I need more libraries I can try and install them using
+`conda`. This installing business sounds like `pip` and even `apt-get`; so what is the distinction
+between the three? 
+
+
+### What is Miniconda? 
+
+
+### What is WSL?
+
+
+### What is VSCode?
+
+
+### What is **`bash`**?
+
+
+### What is **`Linux`**?
+
+
+### What is **`vi`** or **`vim`**?
+
+
+### What is **`Jupyter`**?
+
+
+### What is **`git`**?
+
+
+### What is GitHub?
+
+
+### What is Binder?
+
+
+### What is an environment?
+
+
+### What is **`environment.yml`**?
+
+
+### What is that other equivalent thing?
 
 I can "install" something called WSL... or maybe it is combined with "turning on Linux" inside Windows. But I can also install Ubuntu bash. Which opens a bash terminal in my home directory... where miniconda is not installed. So I install miniconda and now I can create and activate environments. And I can start a Jupyter notebook server. But the other day my Ubuntu <start> icon stopped working. So I forced Ubuntu to start using the Windows start utility. So it started. So I said "ls" and everything was gone. So all my hard work evaporated (except that it was mostly synched with GitHub so Hah Hah Hah on the gods of data loss). So 
 
