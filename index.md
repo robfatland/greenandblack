@@ -2,7 +2,7 @@
      alt="green and black icon"
      height="100"
      width="500"
-     style="float: left; margin-right: 10px;" />
+     style="float: center; margin-right: 10px;" />
 
 
 <br/>
