@@ -4,20 +4,18 @@
      width="50"
      style="float: center; margin-right: 10px;" />
 
-
 # greenandblack
-
 
 ## Contents
 
-* [gh-pages format](https://robfatland.github.io/greenandblack#nice-format-whats-your-secret)
-* [green and black](https://robfatland.github.io/greenandblack#just-make-it-green-and-black)
-* [conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
-* [ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
-* [bash operational notes](https://robfatland.github.io/greenandblack#bash-operational-notes)
-* [miscellaneous](https://robfatland.github.io/greenandblack#miscellaneous)
+* [green and black: formatted](https://robfatland.github.io/greenandblack)
+* [green and black: get to the point](https://robfatland.github.io/greenandblack#just-make-it-green-and-black)
+* [green and black: conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
+* [green and black: ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
+* [green and black: bash](https://robfatland.github.io/greenandblack#bash-operational-notes)
+* [green and black: miscellaneous](https://robfatland.github.io/greenandblack#miscellaneous)
 * sub-folders
-    * [VSCode](https://robfatland.github.io/greenandblack/vscode)
+    * [Visual Studio Code IDE (VSCode)](https://robfatland.github.io/greenandblack/vscode)
 
 
 ## Nice format! What's your secret? 
@@ -42,6 +40,7 @@ Here is how to get one of these https://**organization**.github.io/**repo** webs
 - The root directory `index.md` renders as default content
     - Add other folders and markdown; but cross reference using documentation website URLs, not GitHub URLs
         - Example: **`https://organization.github.io/repo-name/subfolder`** renders the **`index.md`** therein
+
 
 ## Is there a motivational rant please?
 
