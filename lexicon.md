@@ -16,7 +16,7 @@ Here at last are all the answers to all the important questions in the circa-202
 Well, ok, some of them anyway.
 
 
-### What is Anaconda?
+### What is **`Anaconda`**?
 
 
 Anaconda is a **Python distribution** that features a metric ton of pre-installed data science libraries. 
@@ -27,10 +27,44 @@ The `conda` command is a package manager; so if I need more libraries I can try 
 between the three? 
 
 
+### What is **`miniconda`**
+
+
+**`miniconda`** is a minimal conda installation. It installs faster and has a much smaller footprint
+than Anaconda.
+The potential down side: When you want commonly-used libraries, say in the future,
+you installing them yourself.
+For more detail [read this](https://www.educative.io/edpresso/anaconda-vs-miniconda).
+
+
+#### Install miniconda
+
+These commands may be dated.
+
+```
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+Respond to prompts with care. 
+
+
+Now suppose you are interested in going from a miniconda
+installation to running a Jupyter notebook server. Here is
+a quick path to this end result.
+
+
+```
+rm Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+conda install ipython
+conda install jupyter
+conda create -n lectroid python=3.6
+conda activate lectroid
+jupyter notebook
+```
+
 ### What is **`conda-forge`**?
-
-
-### What is Miniconda? 
 
 
 ### What is WSL?
@@ -66,7 +100,7 @@ C:\WINDOWS\system32>
 ```
 
 
-Now the dardest thing is I can also use my Windows chooser (windows key) to find **`bash`**. How did 
+Now the darndest thing is I can also use my Windows chooser (windows key) to find **`bash`**. How did 
 that get there? ...more to do here...
 
 
@@ -79,10 +113,36 @@ that get there? ...more to do here...
 ### What is **`Linux`**?
 
 
+Linux is an operating system traceable back to UNIX.
+
+
+#### Which version of the Linux operating system am I running? 
+
+
+```
+cat /etc/os-release
+
+NAME="Ubuntu"
+VERSION="18.04.2 LTS (Bionic Beaver)"
+PRETTY_NAME="Ubuntu 18.04.2 LTS"
+VERSION_ID="18.04"
+etcetera
+
+lsb_release -a
+
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 18.04.2 LTS
+Release:        18.04
+Codename:       bionic
+```
+
+
 ### What is **`vi`** or **`vim`**?
 
 [**`vi`** is a visual text editor](https://en.wikipedia.org/wiki/Vi)
-created by Bill Joy back in the mid-1970s. **`vim`** is an improved 
+created by Bill Joy back in the mid-1970s, associated with UNIX/Linux.
+**`vim`** is an improved 
 and very compatible version. The main point of `vi` from my perspective
 is: Sharp learning cost and then it becomes second nature; and this
 is primarily due to the intrinsic <escape> mode which gives access
