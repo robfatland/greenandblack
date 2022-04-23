@@ -33,6 +33,34 @@ between the three?
 
 ### What is WSL?
 
+This is a bit of jargon that rests squarely on another bit of jargon. Once we have *that second jargon*
+defined it is very easy to define WSL. So let us ask **'In computers, what is a *compatibility layer*?'**
+A compatibility layer is an interface that allows binaries from a foreign system to run on a host 
+system. 
+
+So let's say the host system is Windows and the compatibility layer is Windows Subsystem for Linux, 
+abbreviated WSL. And now version 2 is out; so technically WSL-2. WSL is built into the Windows operating
+system on a PC; so it may need to be enabled in order to run Linux on that PC. 
+
+Running a Windows Command Prompt as Administrator one can issue a `wsl` command that starts a bash shell
+in the Command window. This sequence indicates 'going there and coming back again'.
+
+```
+C:\Windows\system32> wsl
+
+(base) username> pwd
+
+/mnt/c/WINDOWS/system32
+
+(base) username> cd ~
+(base) username> pwd
+
+/home/username
+
+(base) username> exit
+
+C:\WINDOWS\system32>
+```
 
 ### What is VSCode?
 
@@ -44,6 +72,20 @@ between the three?
 
 
 ### What is **`vi`** or **`vim`**?
+
+[**`vi`** is a visual text editor](https://en.wikipedia.org/wiki/Vi)
+created by Bill Joy back in the mid-1970s. **`vim`** is an improved 
+and very compatible version. The main point of `vi` from my perspective
+is: Sharp learning cost and then it becomes second nature; and this
+is primarily due to the intrinsic <escape> mode which gives access
+to a command line at the bottom of the screen.
+  
+
+In recent years `vi/vim` has accumulated features like color-coded
+text which is one of the motivations for this repository. Apparently
+when Heads Up Displays were introduced in the military the pilots 
+would often switch them off because it they just amounted to visual clutter.
+
 
 
 ### What is **`Jupyter`**?
