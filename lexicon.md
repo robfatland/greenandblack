@@ -44,7 +44,8 @@ So let's say the host system is Windows and the compatibility layer is Windows S
 abbreviated WSL. And now version 2 is out; so technically WSL-2. WSL is built into the Windows operating
 system on a PC; so it may need to be enabled in order to run Linux on that PC. 
 
-Running a Windows Command Prompt as Administrator one can issue a `wsl` command that starts a bash shell
+Running a Windows Command Prompt as Administrator one can install `wsl` if needed via `wsl --install`. 
+And re-start the PC of course. After that is done one can issue a `wsl` command that starts a bash shell
 in the Command window. This sequence indicates 'going there and coming back again'.
 
 ```
@@ -63,6 +64,11 @@ C:\Windows\system32> wsl
 
 C:\WINDOWS\system32>
 ```
+
+
+Now the dardest thing is I can also use my Windows chooser (windows key) to find **`bash`**. How did 
+that get there? ...more to do here...
+
 
 ### What is VSCode?
 
