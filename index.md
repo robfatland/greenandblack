@@ -1,7 +1,7 @@
 <img src="assets/img/greenandblack.png"
      alt="green and black icon"
-     height="50"
-     width="50"
+     height="80"
+     width="80"
      style="float: center; margin-right: 10px;" />
 
 # greenandblack
