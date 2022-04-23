@@ -9,6 +9,7 @@
 ## Contents
 
 * [green and black: formatted](https://robfatland.github.io/greenandblack)
+* [green and black: lexicon](https://robfatland.github.io/greenandblack/lexicon)
 * [green and black: get to the point](https://robfatland.github.io/greenandblack#just-make-it-green-and-black)
 * [green and black: conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
 * [green and black: ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
