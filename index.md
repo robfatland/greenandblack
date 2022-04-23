@@ -9,19 +9,20 @@
 ## Navigation links
 - ...from the top, [nice format](https://robfatland.github.io/greenandblack), 
 [github](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md)
-- ...this lexicon, [nice format](https://robfatland.github.io/greenandblack/lexicon), 
+- ...the backing lexicon, [nice format](https://robfatland.github.io/greenandblack/lexicon), 
 [github](https://github.com/robfatland/greenandblack/blob/gh-pages/lexicon.md)
 
 
 ## Contents
 
-* [green and black: from the top](https://robfatland.github.io/greenandblack)
-* [green and black: lexicon](https://robfatland.github.io/greenandblack/lexicon)
-* [green and black: green and black](https://robfatland.github.io/greenandblack#just-make-it-green-and-black)
-* [green and black: conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
-* [green and black: ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
-* [green and black: bash](https://robfatland.github.io/greenandblack#bash-operational-notes)
-* [green and black: miscellaneous](https://robfatland.github.io/greenandblack#miscellaneous)
+Green and black...
+
+* [from the top](https://robfatland.github.io/greenandblack)
+* [green and black](https://robfatland.github.io/greenandblack#just-make-it-green-and-black)
+* [conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
+* [ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
+* [bash](https://robfatland.github.io/greenandblack#bash-operational-notes)
+* [miscellaneous](https://robfatland.github.io/greenandblack#miscellaneous)
 * sub-folders
     * [Visual Studio Code IDE (VSCode)](https://robfatland.github.io/greenandblack/vscode)
 
