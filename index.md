@@ -22,9 +22,7 @@ Green and black...
 * [conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
 * [ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
 * [bash](https://robfatland.github.io/greenandblack#bash-operational-notes)
-* [miscellaneous](https://robfatland.github.io/greenandblack#miscellaneous)
-* sub-folders
-    * [Visual Studio Code IDE (VSCode)](https://robfatland.github.io/greenandblack/vscode)
+* [Visual Studio Code IDE (VSCode)](https://robfatland.github.io/greenandblack/vscode)
 
 
 ## Nice format! What's your secret? 
@@ -189,39 +187,7 @@ syntax off
 - Re-run `vi` to verify this worked
 
 
-## conda package manager
 
-
-### Which version of the operating system am I running? 
-
-
-`cat /etc/os-release` or `lsb_release -a`
-
-
-### miniconda
-
-
-Caveat emptor: Make sure this is what you want to do. miniconda is a minimal conda installation
-so when you want common libraries in the future (unlike with Anaconda) you will be installing them.
-For more detail: [read this](https://www.educative.io/edpresso/anaconda-vs-miniconda).
-
-
-```
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-```
-
-- Respond to prompts with care; then...
-
-```
-rm Miniconda3-latest-Linux-x86_64.sh
-source ~/.bashrc
-conda install ipython
-conda install jupyter
-conda create -n lectroid python=3.6
-conda activate lectroid
-(jupyter notebook --no-browser --port=8889) &
-```
 
 ### What is the point of conda environments? 
 
@@ -270,6 +236,7 @@ sftp> put worker.pem
     - `ssh -i worker.pem ubuntu@10.0.1.234`
         - This uses the VPC private subnet ip address for **`worker`**
 
+
 - On worker start a headless Jupyter notebook server
     - `(jupyter notebook --no-browser --port=8889) &`
         - The choice of port is fairly arbitrary; but we do not want it to collide with a port that is in use
@@ -292,9 +259,8 @@ sftp> put worker.pem
         - If promnpted: paste in token string copied above
   
   
-## bash operational notes
 
-Common tasks
+## bash
 
 ### List volumes for only top-level directories
 
@@ -319,10 +285,6 @@ to pay for a higher sampling rate in the console... but why?"
 sudo apt-get update -y && sudo apt-get upgrade -y
 ```
 
-## Miscellaneous 
 
 
-### Where can I look for an instructive IOT project, say on AWS?
 
-
-[Try this](https://github.com/aws-samples/aws-iot-workshop)
