@@ -22,7 +22,6 @@ Green and black...
 * [conda package manager](https://robfatland.github.io/greenandblack#conda-package-manager)
 * [ssh tunnel](https://robfatland.github.io/greenandblack#ssh-tunnel)
 * [bash](https://robfatland.github.io/greenandblack#bash-operational-notes)
-* [Visual Studio Code IDE (VSCode)](https://robfatland.github.io/greenandblack/vscode)
 
 
 ## Nice format! What's your secret? 
