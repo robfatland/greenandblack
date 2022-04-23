@@ -8,14 +8,12 @@ Green and black...
 [github](https://github.com/robfatland/greenandblack/blob/gh-pages/lexicon.md)
 
 
-Here are all the answers to all the important questions in the circa-2022 data science ecosystem. 
-Well, some of them anyway.
-
-
 ## Weasel??? Anaconda???  What, are we in some sorta zoo????
 
 
 This is an unapologetic sequence of lexicon explanations, an infinite sequence of paragraphs. 
+Here at last are all the answers to all the important questions in the circa-2022 data science ecosystem. 
+Well, ok, some of them anyway.
 
 
 ### What is Anaconda?
