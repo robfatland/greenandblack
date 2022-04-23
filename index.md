@@ -1,12 +1,8 @@
 <img src="assets/img/greenandblack.png"
      alt="green and black icon"
-     height="100"
-     width="500"
+     height="50"
+     width="50"
      style="float: center; margin-right: 10px;" />
-
-
-<br>
-<br>
 
 
 # greenandblack
