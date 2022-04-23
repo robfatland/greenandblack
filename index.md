@@ -6,6 +6,13 @@
 
 # greenandblack
 
+## Navigation links
+- ...from the top, [nice format](https://robfatland.github.io/greenandblack), 
+[github](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md)
+- ...this lexicon, [nice format](https://robfatland.github.io/greenandblack/lexicon), 
+[github](https://github.com/robfatland/greenandblack/blob/gh-pages/lexicon.md)
+
+
 ## Contents
 
 * [green and black: from the top](https://robfatland.github.io/greenandblack)
