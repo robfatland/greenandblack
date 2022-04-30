@@ -30,5 +30,5 @@ Use and or believe what you find at your own peril.
 - [cloud spend notification](https://github.com/robfatland/costnotify)
 - [ocean data science](https://github.com/robfatland/cloudsecurity)
 - [classroom environments](https://github.com/robfatland/curriculum)
-- [non-curriculum math](https://github.com/robfatland/othermathclub)
-- [Python projects](https://github.com/robfatland/pythonbytes)
+- [non-curriculum math](https://github.com/robfatland/othermathclub) (middle school)
+- [Python projects](https://github.com/robfatland/pythonbytes) (middle school)
