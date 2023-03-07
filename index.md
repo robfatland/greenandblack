@@ -50,13 +50,14 @@ Here is how to get one of these https://**organization**.github.io/**repo** webs
 ## motivating rant please?
 
 
-I want to understand my Linux bash installation on my Windows laptop. 
-Debugging skills would be nice, particularly. 
-Early attempts were haphazard: 'It seems to work... hope it doesn't break!'
-Also I connected with the Windows Downloads folder via a torturous path: 
-**`/mnt/c/Users/myusername/Downloads`** which seemed absurd. 
-Then one day ***it broke***: My Linux environment had vanished.
-I got them back... but now let's try again from scratch and do better with the big picture.
+I want to understand--say--my Linux bash installation on my Windows laptop... and I want simple
+green text on a black background.  Not a lot of 'informative' colorized text. I did it once...
+long ago... but there were
+all these squonking little details. Every two years or so, give or take, I have to drag through
+the same piddly little web searches and glaring my way through Stack Overflow answers...rrrrrr...
+You know what this is? This is the curse of having a semi-IT
+job while being a not-very-IT personality. So I put in some extra effort on these notes
+and every couple years they will save me... hours? days? minutes? of teeth gnashing.
 
 
 
