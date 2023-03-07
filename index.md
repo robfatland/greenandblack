@@ -76,8 +76,15 @@ The scenario:
 - ...but all I want is green on black with a simple prompt...
 
 
-This bias was inspired by Curtis Ling, who is cool never mind he is also late to rehearsal.
+This bias was inspired by this guy Curtis, who is cool nevermind late to rehearsal.
 
+
+### Everything I know about **`git`**
+
+- `git pull` to get the latest; then `git add .` then `git commit -m 'ch ch ch changes'` then `git push`
+- From `~` store creds using `git config --global credential.helper store`
+- To abandon changes and back up: `git reset --hard HEAD` or if necessary `git reset --hard HEAD~1` etcetera
+    - HEAD~n means n commits back
 
 ### **`bash`** fix 
 
