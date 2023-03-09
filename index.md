@@ -122,6 +122,9 @@ independent of customizing a VM bash.
 ### prompt fix
 
 
+For green text type this on the command line: `echo -e "Default \e[32mDefault"`
+
+
 The prompt's job is to tell me which computer I am entering commands on (and possibly whether
 I am working inside a conda environment).
 
