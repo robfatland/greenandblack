@@ -119,10 +119,13 @@ independent of customizing a VM bash.
 - Check with `ls -al` again
 
 
-### prompt fix
+### green text
 
 
 For green text type this on the command line: `echo -e "Default \e[32mDefault"`
+
+
+### prompt fix
 
 
 The prompt's job is to tell me which computer I am entering commands on (and possibly whether
