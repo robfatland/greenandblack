@@ -1,34 +1,37 @@
 # [Pretty version of greenandblack](https://robfatland.github.io/greenandblack/)
 
 [This repo](https://github.com/robfatland/greenandblack/tree/main)
-is a Note To Self on operating in the *Bourne again shell* **`bash`**. 
-It began as "How to get rid of annoying colorized text: Just green text on a black background please."
-This bias was inspired by Curtis L. in 1985. The [documentation branch (gh-pages) is here](https://github.com/robfatland/greenandblack/tree/gh-pages).
-The [documentation itself is here](https://robfatland.github.io/greenandblack).
-The meta-environmental spirit of the repo has now expanded: **basic information** on containers, bash-in-Windows and so on.
-Use and or believe what you find at your own peril.
+began as a Note To Self on simplifying format of the *Bourne again shell* **`bash`**: 
+No colorized text, just green characters on a black background.
+The [documentation branch (gh-pages) is here](https://github.com/robfatland/greenandblack/tree/gh-pages)
+and the [documentation itself is here](https://robfatland.github.io/greenandblack).
+The scope of the repo has expanded, as scopes will do. Now there are notes on containers, 
+on bash-in-Windows and more.
 
 
-- Cool-format note: This repo uses GitHub **pages** so switch to the **`gh-pages`** branch to edit content
-- Retro-customize bash and vi: Just green on black and a simple prompt
-- **`ssh`** tunnels from one machine to another
-- When to use **`miniconda`** instead of **`anaconda`**
-- On a Windows PC: How are **`Ubuntu bash`** and **`Windows Subsystem for Linux (WSL)`** related?
-    - ...and how does this in turn relate to **`VSCode`**?
-    - ...and to containers?
-    - ...and to conda environments?
+- this repo uses GitHub **pages** so switch to the **`gh-pages`** branch to edit content
+- customizing `bash` and `vi` is focused on green-on-black, a simple prompt, and text editing
+- scope expanded to include
+    - **`ssh`** tunnels from one machine to another
+    - Difference: **`miniconda`** versus **`anaconda`**
+    - Windows PC
+        - **`Ubuntu bash`**
+        - **`Windows Subsystem for Linux (WSL-2)`**
+        - **`VSCode`**?
+    - containers
+    - conda environments
 
 
-## Elsewhere but not far
+## Related topics
 
-- [quantum computing](https://github.com/robfatland/quantum)
-- [fast API-building](https://github.com/robfatland/zero2api)
-- [building a server using Flask](https://github.com/robfatland/mocean)
-- [secure cloud](https://github.com/robfatland/cloudsecurity)
-- [natural language processing](https://github.com/robfatland/nlp)
-- [cloud command line interfaces](https://github.com/robfatland/cli)
-- [cloud spend notification](https://github.com/robfatland/costnotify)
-- [ocean data science](https://github.com/robfatland/cloudsecurity)
-- [classroom environments](https://github.com/robfatland/curriculum)
-- [non-curriculum math](https://github.com/robfatland/othermathclub) (middle school)
-- [Python projects](https://github.com/robfatland/pythonbytes) (middle school)
+
+- quantum computing
+- API building and use
+- setting up a server using Flask
+- secure use of the cloud
+- natural language processing
+- command line interface to cloud
+- oceanography-driven data science tools
+- cloud spend notification
+- stopping runaway cloud spend automatically
+- [topics in middle school math and coding](https://github.com/robfatland/othermathclub)
