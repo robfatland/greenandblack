@@ -8,80 +8,56 @@ Green and black...
 [github](https://github.com/robfatland/greenandblack/blob/gh-pages/lexicon.md)
 
 
-## Weasel??? Anaconda???  What, are we in some sorta zoo????
+## Quo vadis?
 
 
-This is an unapologetic sequence of lexicon explanations, an infinite sequence of paragraphs. 
-Here at last are all the answers to all the important questions in the circa-2022 data science ecosystem. 
-Well, ok, some of them anyway.
+- 12/23 did some editing of this content
+- Where this should get to is
+    - All the headings should have definitions
+    - Statement of purpose at the top
+    - Define environments early
+    - Arrive at miniconda as the target, then interactive Python, then the Jupyter family
+        - For each technology we want to have enough information to create, delete and rebuild without loss of existing effort
+            - Best for not losing existing effort: Software control
+            - This in turn implies rudimentary `git` commands
+            - The advanced `git` skill is reconciling incompatible merges
+- Basic `bash > cd ~ > jupyter lab > copy paste > edit > save > commit`
+    - The version of this that runs on a Linux server on Azure, on AWS
+- Incidental questions it would be good to answer
+    - What if I installed Python and I have IDLE and so on... is this creating friction with the miniconda installation?
+        - Digress into IDLE and how package installation is done in that context...
 
 
-### What is **`Anaconda`**?
+### Weasel?
 
 
-Anaconda is a **Python distribution** that features a metric ton of pre-installed data science libraries. 
-Therefore we can say Anaconda is a **data science platform** that happens to use Python. 
-But when Anaconda installs in a Linux operating system it also installs therein this special command `conda`.
-The `conda` command is a package manager; so if I need more libraries I can try and install them using
-`conda`. This installing business sounds like `pip` and even `apt-get`; so what is the distinction
-between the three? 
+- ***Weasel*** is my informal, unendorsed pronunciation of WSL-2, the second version of the Windows Subsystem for Linux
+    - WSL-2 is a *compatibility layer* (see following section)
+    - The underlying idea is to support the Linux core, particularly 'Linux system calls' in Windows somehow
+        - WSL-1 original idea: Do so without a Virtual Machine or a dual-boot OS
+            - ...by giving the Windows kernel the capacity to execute Linux system calls
+    - Superseded by WSL-2
+        - Uses a full-blown virtual machine (VM) to run a Linux kernel
+        - Inviting questions on how this runs and interacts with Windows
+            - And this is out of local scope because...
+            - ...the focus of this repo is just getting a framework in place
+         
+> Bottom line: The plan is to enable WSL-2 on a Windows machine in support of Linux
 
 
-### What is **`miniconda`**
+### More on WSL-2: A *compatibility layer*
 
 
-**`miniconda`** is a minimal conda installation. It installs faster and has a much smaller footprint
-than Anaconda.
-The potential down side: When you want commonly-used libraries, say in the future,
-you installing them yourself.
-For more detail [read this](https://www.educative.io/edpresso/anaconda-vs-miniconda).
-
-
-#### Install miniconda
-
-These commands may be dated.
-
-```
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-```
-
-Respond to prompts with care. 
-
-
-Now suppose you are interested in going from a miniconda
-installation to running a Jupyter notebook server. Here is
-a quick path to this end result.
-
-
-```
-rm Miniconda3-latest-Linux-x86_64.sh
-source ~/.bashrc
-conda install ipython
-conda install jupyter
-conda create -n lectroid python=3.6
-conda activate lectroid
-jupyter notebook
-```
-
-### What is **`conda-forge`**?
-
-
-### What is WSL?
-
-This is a bit of jargon that rests squarely on another bit of jargon. Once we have *that second jargon*
-defined it is very easy to define WSL. So let us ask **'In computers, what is a *compatibility layer*?'**
 A compatibility layer is an interface that allows binaries from a foreign system to run on a host 
 system. 
 
-So let's say the host system is Windows and the compatibility layer is Windows Subsystem for Linux, 
-abbreviated WSL. And now version 2 is out; so technically WSL-2. WSL is built into the Windows operating
-system on a PC; so it may need to be enabled in order to run Linux on that PC. That's the point. 
-The foreign system binary is Linux. We enable WSL so we can run Linux on Windows.
+In the WSL-2 discussion above, the host system is Windows and the compatibility layer is 
+Windows Subsystem for Linux v2, abbreviated WSL-2. 
+The foreign system binary is Linux. One enables WSL-2 so as to run Linux on Windows.
 
-Running a Windows Command Prompt as Administrator one can install `wsl` if needed via `wsl --install`. 
-And re-start the PC of course. After that is done one can issue a `wsl` command that starts a bash shell
-in the Command window. This command sequence indicates 'going there and coming back again'.
+At the Windows Command Prompt -- as Administrator -- one can install `wsl` if needed via `wsl --install`. 
+(Re-start the PC at this point.) Thence: A `wsl` command starts a bash shell in the Command window. 
+
 
 ```
 C:\Windows\system32> wsl
@@ -103,6 +79,61 @@ C:\WINDOWS\system32>
 
 Now the darndest thing is I can also use my Windows chooser (windows key) to find **`bash`**. How did 
 that get there? ...more to do here...
+
+
+### **`Anaconda`**?
+
+
+- Anaconda is the proper name for the large **Python distribution**
+    - ...featuring a *lot* of pre-installed data science libraries 
+    - Anaconda can be seen as a **data science platform** that happens to use Python
+- Anaconda installed in a Linux operating system includes the package manager `conda`
+    - As the name implies, `conda` is a management tool
+        - Management task: Install or uninstall libraries
+            - These are used by Python code for specialized tasks such as SVD
+        - Management task: Create or delete Python *environments*
+    - Related commands are `pip` and `apt-get`
+        - `pip` is also a Python package installer/manager
+            - A distinction between `conda` and `pip` is attempted [here on stack overflow](https://stackoverflow.com/questions/54834579/specific-reasons-to-favor-pip-vs-conda-when-installing-python-packages)
+        - `apt-get` is a **Linux** command line tool for interacting with a package management system for Linux distributions
+            - This package management system is called the Advanced Package Tool, hence APT, hence `apt-get`
+            - `apt-get` is hence a Linux analog of Python package management tools like `conda` and `pip`
+
+
+> Bottom line: **Anaconda** is a large Python distribution that includes package and environment management tools.
+> [More here](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))
+
+
+### What is **`miniconda`**
+
+
+- **`miniconda`** is a minimal Python installation that also includes the `conda` package manager
+    - Description
+        - miniconda includes the Python kernel
+        - miniconda does not include many of the libraries pre-installed in an Anaconda installation
+        - miniconda consequently installs much faster and has a smaller footprint
+            - The implication is that needed libraries can be installed subsequently
+            - [Comparative article: Anaconda versus Miniconda](https://www.educative.io/edpresso/anaconda-vs-miniconda)
+    - miniconda installation
+        - Given below are miniconda installation steps circa 2022
+            - These proceed to start a Jupyter notebook server
+        - Recommendation: Do not follow these command verbatim; rather look up the current procedure
+        
+
+```
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+rm Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+conda install ipython
+conda install jupyter
+conda create -n python313 python=3.13
+conda activate python313
+jupyter notebook
+```
+
+### What is **`conda-forge`**?
+
 
 
 ### What is VSCode?
