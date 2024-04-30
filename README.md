@@ -1,4 +1,9 @@
+You are reading the meta-narrative of this repo. Use the links below to get to the
+'how to do it' documentation.
+
+
 # [Pretty version of greenandblack](https://robfatland.github.io/greenandblack/)
+
 
 [This repo](https://github.com/robfatland/greenandblack/tree/main)
 began as a Note To Self on simplifying format of the *Bourne again shell* **`bash`**: 
