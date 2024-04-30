@@ -1,5 +1,5 @@
 You are reading meta-content, specifically the ***README*** on the github pages branch of the greenandblack repo. 
-The content (that is rendered pretty) is `index.md`. 
+The content (that is rendered pretty) is `index.md`. The pretty render is [here](https://robfatland.github.io/greenandblack).
 
 
 # greenandblack
