@@ -6,7 +6,7 @@
 
 # greenandblack
 
-Source file for this content is in the `gh-pages` branch, root folder, filename [`index.md`](https://github.com/robfatland/greenandblack/edit/gh-pages/index.md).
+Source file for this content is in the `gh-pages` branch, root folder, filename [`index.md`]([https://github.com/robfatland/greenandblack/edit/gh-pages/index.md](https://github.com/robfatland/greenandblack/blob/gh-pages/index.md)).
 
 ## Navigation links
 - ...from the top, [nice format](https://robfatland.github.io/greenandblack), 
