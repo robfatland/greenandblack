@@ -1,3 +1,7 @@
+You are reading meta-content, specifically the ***README*** on the github pages branch of the greenandblack repo. 
+The content (that is rendered pretty) is `index.md`. 
+
+
 # greenandblack
 
 ## Quo vadis
